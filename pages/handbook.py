@@ -1,4 +1,8 @@
-# 這是註解,不會被執行
+import streamlit as st
+
+st.code(
+    """
+    # 這是註解,不會被執行
 # CTRL+? 可以把框選的範圍做 快速註解/取消註解
 
 print("Hello World")  # print是在終端機顯示文字的指令
@@ -38,3 +42,5 @@ print(1 % 1)  # 取餘數後的值
 s = "apple"  # 字串
 s = "apple"  # 重複宣告
 s = "apple"  # 重複宣告
+"""
+)

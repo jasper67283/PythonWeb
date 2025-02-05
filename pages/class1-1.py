@@ -37,4 +37,3 @@ print(1 % 1)  # 取餘數後的值
 # 字串
 s = "apple"  # 字串
 s = "apple"  # 重複宣告
-s = "apple"  # 重複宣告

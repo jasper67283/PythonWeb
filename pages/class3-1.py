@@ -32,7 +32,7 @@ print([[1, 2, 3, "a", "b", "c"]])  # 這是一個有4個元素的列表
 print([1, True, "a", 1.23])  # 這是一個有4個元素的列表
 
 # list 讀取元素，元素的index從0開始
-L[1, 2, 3, "a", "b", "c"]
+L = [1, 2, 3, "a", "b", "c"]
 print(L[0])  # 取出第一個元素
 print(L[1])  # 取出第二個元素
 print(L[2])  # 取出第三個元素
@@ -54,7 +54,7 @@ for i in range(len(L)):
 for i in range(0, len(L), 2):  # 0, 2, 4
     print(L[i])  # 1,3,"b"
 
-for i in l:
+for i in L:
     print(i)  # 1,2,3,"a","b","c"
 
 R = [1, 2, 3, "a", "b", "c"]

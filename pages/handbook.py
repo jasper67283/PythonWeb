@@ -6,6 +6,7 @@ menu.menu()
 
 # 打開markdown資料夾，取得所有檔案名稱為list，存到hd_book_files變數
 hd_book_files = os.listdir("markdown")
+hd_book_files.sort()  # 排序
 # 透過迴圈，將markdown資料夾中的檔案名稱取出，並透過expander元件展開
 for file_name in hd_book_files:
     with st.expander(file_name[:-3]):  # 去掉檔案名稱的.md

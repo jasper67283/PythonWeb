@@ -1,5 +1,8 @@
 import streamlit as st
 import time as t
+import menu
+
+menu.menu()
 
 st.title("欄位元件")
 col1, col2 = st.columns(2)  # 2columns

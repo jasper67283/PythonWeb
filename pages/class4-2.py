@@ -1,4 +1,7 @@
 import streamlit as st
+import menu
+
+menu.menu()
 
 st.title("點餐機")
 

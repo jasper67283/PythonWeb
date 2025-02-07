@@ -2,6 +2,9 @@ import streamlit as st
 from openai import OpenAI
 import dotenv
 import os
+import menu
+
+menu.menu()
 
 dotenv.load_dotenv()
 

@@ -1,4 +1,7 @@
 import streamlit as st
+import menu
+
+menu.menu()
 
 st.title("數字金字塔")
 number = st.number_input("請輸入一個數字(1~9)", min_value=1, max_value=9, step=1)

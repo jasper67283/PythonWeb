@@ -1,5 +1,8 @@
 import streamlit as st
 import os
+import menu
+
+menu.menu()
 
 # 打開markdown資料夾，取得所有檔案名稱為list，存到hd_book_files變數
 hd_book_files = os.listdir("markdown")

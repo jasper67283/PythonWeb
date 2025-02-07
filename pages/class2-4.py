@@ -1,5 +1,8 @@
 import streamlit as st
 import random as r
+import menu
+
+menu.menu()
 
 st.title("猜數字遊戲")
 
